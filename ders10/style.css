@@ -1,0 +1,367 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.reng1 {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 40px;
+    background-color: #f2f4f5;
+}
+
+.head {
+    width: 70%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    color: #707070;
+
+}
+
+.head2 {
+    display: flex;
+    gap: 30px;
+}
+
+.header2 {
+    width: 100%;
+    height: 40px;
+    position: sticky;
+    top: 0;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0;
+    position: -webkit-sticky;
+    display: flex;
+    align-items: center;
+}
+
+.header1 {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+}
+
+nav ul li a {
+    color: #303030;
+    font-size: 17px;
+}
+
+.home {
+    color: #77b122;
+}
+
+nav ul li a:hover {
+    color: #77b122;
+    transition: 0.3s;
+}
+
+nav ul i {
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+nav ul i:hover {
+    color: #77b122;
+}
+
+
+
+.section1 {
+    width: 100%;
+    height: 800px;
+    margin: 0 0 30px 0;
+    background-image: url(https://preview.colorlib.com/theme/farmie/img/bg-img/1.jpg.webp);
+}
+
+.section2 {
+    width: 100%;
+    height: 800px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.body {
+    width: 940px;
+    height: 300px;
+    position: relative;
+    left: 150px;
+    top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.body h2 {
+    font-size: 55px;
+    color: white;
+}
+
+.body p {
+    font-size: 18px;
+    color: white;
+}
+
+.body a {
+    width: 160px;
+    height: 50px;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #77b122;
+    transition: 1s;
+}
+
+.body a:hover {
+    background-color: black;
+
+}
+
+.bala1 img {
+    width: 605px;
+    height: 770px;
+    overflow: hidden;
+    margin: 0 30px 0 0;
+}
+
+.ana {
+    display: flex;
+    background-color: #e7e7e7;
+}
+
+.bala2 {
+    width: 907px;
+    height: 780px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 0 0 20px;
+
+    padding: 20px;
+}
+
+.balabox1 h1 span {
+    color: #77b122;
+}
+
+.balabox1 h1 {
+    font-size: 36px;
+}
+
+.balabox2 {
+    width: 708px;
+    height: 90px;
+    margin: 30px 0 0 0;
+
+}
+
+.balabox3 {
+    display: flex;
+    gap: 30px;
+
+}
+
+.balabox4 {
+    width: 325px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.gap {
+    margin: 30px 30px 30px 0;
+}
+
+.color {
+    color: #707070;
+    font-size: 16px;
+}
+
+.style {
+    width: 34px;
+    height: 30px;
+}
+
+.style1 {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.style1:hover {
+    color: #77b122;
+}
+
+.reng {
+    width: 100%;
+    height: 531px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 {
+    width: 100%;
+    height: 531px;
+    margin: 30px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://preview.colorlib.com/theme/farmie/img/bg-img/8.jpg.webp);
+}
+
+.bir {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+.p{
+    width: 900px;
+    height: 40px;
+    color: white;
+    margin: 30px 0;
+}
+.email{
+    position: relative;
+}
+.email input{
+    width: 540px;
+    height: 50px;
+    margin-top: 30px;
+    padding-left: 20px;
+}
+.email button{
+    width: 170px;
+    height: 50px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    color: white;
+    background-color: #77b122;
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.email button:hover{
+    background-color: black;
+}
+
+
+.getin{
+    width: 1140px;
+    height: 590px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.bitgi{
+    width: 123px;
+    height: 20px;
+}
+.contact1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+.contact1 h1{
+    font-size: 36px;
+}
+.span1{
+    color: #77b122;
+}
+iframe{
+    width: 540px;
+    height: 480px;
+}
+.contact{
+    width: 475px;
+    height: 590px;
+}
+.inputs{
+    width: 80%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.imp1{
+    width: 207px;
+    height: 48px;
+    padding-left: 30px;
+    border: 1px solid #d4d4d4;
+}
+.imp2{
+    width: 445px;
+    height: 48px;
+    padding-left: 30px;
+    border: 1px solid #d4d4d4;
+}
+.imp3{
+    width: 445px;
+    height: 100px;
+    padding-left: 30px;
+    border: 1px solid #d4d4d4;
+}
+.imp4{
+width: 181px;
+height: 50px;
+color: white;
+background-color: #77b122;
+transition: 0.5s;
+border: none;
+}
+.imp4:hover{
+background-color: black;
+}
+.twoimp{
+    width: 445px;
+    height: 60px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.fix{
+    width: 50px;
+    height: 50px;
+    background-color: #77b122;
+    position: fixed;
+    right: 70px;
+    bottom: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
